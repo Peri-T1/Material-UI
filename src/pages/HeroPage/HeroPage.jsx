@@ -1,6 +1,7 @@
 import classes from './HeroPage.module.scss'
 import { Button } from '@mui/material'
 import { Card } from '@mui/material';
+import VideoBlockOne from '../../components/VideoBlockOne/VideoBlockOne';
 
 
 
@@ -39,6 +40,8 @@ const HeroPage = () => {
           }}>SUBMIT REQUEST</Button>
         </div>
         <Card variant="outlined" sx={{ maxWidth: 120, height:160}}> About video</Card>
+        <VideoBlockOne />
+        
         </>
           )
         }
